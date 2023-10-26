@@ -123,9 +123,9 @@ function updateClock() {
     for (let i = canvasW/3; i <= 2*canvasW/3; i += canvasW/3){
         ctx.beginPath();
         ctx.arc(canvasW / 2, i-50, 25, 0, 2 * Math.PI);
-        ctx.fillStyle = '#efc700';
+        ctx.fillStyle = '#ffffff';
         ctx.fill();
-        ctx.strokeStyle = '#efc700';
+        ctx.strokeStyle = '#ffffff';
         ctx.stroke();
         ctx.closePath();
     }
