@@ -5,13 +5,13 @@
 
   by Bianca Gan 10/25/23
 
-  with help from https://www.geeksforgeeks.org/how-to-design-digital-clock-using-javascript/#
+  with help from:
+  https://www.geeksforgeeks.org/how-to-design-digital-clock-using-javascript/#
+  https://hackernoon.com/building-a-new-tab-chrome-extension-with-zero-dependencies-5zlh3ue6 
 
 */
 
-
 setInterval(binaryTime, 1000);  // calls every second
-
 
 function binaryTime() {
     let time = new Date();
