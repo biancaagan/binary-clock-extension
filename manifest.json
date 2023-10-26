@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Binary Clock by Bianca Gan",
+    "version": "1.0",
+    "description": "A binary clock because why not.",
+    "author": "Bianca Gan",
+    "chrome_url_overrides" : {
+      "newtab": "index.html"
+    },
+    "permissions": [
+      "storage"
+    ],
+    "icons": {
+    }
+  }
