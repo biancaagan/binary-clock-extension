@@ -532,6 +532,7 @@ function drawNine(x){
     }
 }
 
+
 // On page load, call the setup function:
 document.addEventListener('DOMContentLoaded', setup);
 // Run a loop every 2 seconds:
