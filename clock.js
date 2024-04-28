@@ -45,7 +45,7 @@ let x2 = 350;
 let x3 = 650;
 let x4 = 850;
 
-let onColor = '#efc700';
+let onColor = '#ff9f0f';
 let offColor = '#ffffff';
 
 function setup(){
@@ -76,7 +76,7 @@ function setup(){
     let x3 = 650;
     let x4 = 850;
 
-    let onColor = '#efc700';
+    let onColor = '#ff9f0f';
     let offColor = '#ffffff';
 
     // Initial clock set:
@@ -108,7 +108,7 @@ function updateClock() {
     let x3 = 650;
     let x4 = 850;
 
-    let onColor = '#efc700';
+    let onColor = '#ff9f0f';
     let offColor = '#ffffff';
 
     // Canvas:
@@ -136,7 +136,7 @@ function updateClock() {
         let amText = "41 4D";
         let pmText = "50 4D";
         ctx.font = "bold 45px Courier New";
-        ctx.fillStyle = '#efc700';
+        ctx.fillStyle = '#ff9f0f';
         ctx.fillText(amText, canvasW / 2 - ctx.measureText(amText).width - 25, 925)
         ctx.fillStyle = '#ffffff';
         ctx.fillText(pmText, canvasW / 2 + 25, 925)
@@ -146,7 +146,7 @@ function updateClock() {
         ctx.font = "bold 45px Trebuchet MS";
         ctx.fillStyle = '#ffffff';
         ctx.fillText(amText, canvasW / 2 - ctx.measureText(amText).width - 25, 925)
-        ctx.fillStyle = '#efc700';
+        ctx.fillStyle = '#ff9f0f';
         ctx.fillText(pmText, canvasW / 2 + 25, 925)
     }
     
