@@ -76,7 +76,7 @@ function setup(){
     let x3 = 650;
     let x4 = 850;
 
-    let onColor = '#ff9f0f';
+    let onColor = '#f78c2c';    // #ff9f0f original
     let offColor = '#ffffff';
 
     // Initial clock set:
@@ -108,7 +108,7 @@ function updateClock() {
     let x3 = 650;
     let x4 = 850;
 
-    let onColor = '#ff9f0f';
+    let onColor = '#f78c2c';    // #ff9f0f original
     let offColor = '#ffffff';
 
     // Canvas:
@@ -136,17 +136,18 @@ function updateClock() {
         let amText = "41 4D";
         let pmText = "50 4D";
         ctx.font = "bold 45px Courier New";
-        ctx.fillStyle = '#ff9f0f';
+        ctx.fillStyle = '#f78c2c';  // #ff9f0f original
         ctx.fillText(amText, canvasW / 2 - ctx.measureText(amText).width - 25, 925)
         ctx.fillStyle = '#ffffff';
         ctx.fillText(pmText, canvasW / 2 + 25, 925)
     } else if(am_pm == "PM"){
         let amText = "41 4D";
         let pmText = "50 4D";
-        ctx.font = "bold 45px Trebuchet MS";
+        ctx.font = "bold 45px Courier New";
         ctx.fillStyle = '#ffffff';
         ctx.fillText(amText, canvasW / 2 - ctx.measureText(amText).width - 25, 925)
-        ctx.fillStyle = '#ff9f0f';
+        ctx.fillStyle = '#f78c2c';  // #ff9f0f original
+        
         ctx.fillText(pmText, canvasW / 2 + 25, 925)
     }
     

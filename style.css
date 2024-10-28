@@ -1,5 +1,7 @@
 body {
-    background-color: #474747;
+    background-color: #585858;
+    /* Original #474747 */
+    /* Google chrome bookmark bar color #e3e3e3 */
 }
 
 #test {
@@ -45,8 +47,8 @@ body {
 }
 
 #info:hover{
-    background: #ffad2b;
-    border: 2px solid #ffad2b;
+    background: #f78c2c;     
+    border: 2px solid #f78c2c;  
     cursor: help;
 }
 
@@ -92,7 +94,7 @@ body {
 
 #footer {
     font-family: 'Courier New', Courier, monospace;
-    font-size: 14px;
+    font-size: 16px;
     color: #ffffff;
     position: fixed;
     width: 100%;
