@@ -45,7 +45,7 @@ let x2 = 350;
 let x3 = 650;
 let x4 = 850;
 
-let onColor = '#ff9f0f';
+let onColor = '#f78c2c';    // #ff9f0f original
 let offColor = '#ffffff';
 
 function setup(){
@@ -68,7 +68,7 @@ function setup(){
     var ctx = canvas.getContext("2d");
     var canvasW = canvas.width;
     var canvasH = canvas.height;
-    ctx.fillStyle = "#707070";
+    ctx.fillStyle = "#afafaf";  // #707070 original
     ctx.fillRect(0, 0, canvasW, canvasH);
 
     let x1 = 150;
